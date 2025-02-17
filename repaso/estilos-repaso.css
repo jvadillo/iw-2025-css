@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+}
+
+h1, h2 {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 30px;
+    color: #313131;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1220e9;
+}
+
+p {
+    color: darkgray;
+    font-size: 14px;
+}
+
+a {
+    color:green;
+}
+
+a:hover {
+    color: orange;
+}
+
+#cabecera {
+    background-color: grey;
+    padding: 14px;
+}
+
+#cabecera:hover {
+    background-color: whi;
+}
+
+#primer-parrafo {
+    font-style: italic;
+    font-weight: 900;
+}
+
+.parrafo-par {
+    color: #000;
+}
+
+.parrafo-iw {
+    font-size: 18px;
+}
