@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Style the header */
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Container for flexboxes */
+main {
+  display: flex;
+  flex-grow: 2;
+}
+
+/* Create three unequal columns that sits next to each other */
+.article, nav, aside {
+  padding: 10px;
+}
+
+nav {
+  order: -1;
+}
+/* Left and right column */
+nav, aside {
+   flex-grow: 1;
+}
+
+/* Middle column */
+article {
+  flex-grow: 2;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

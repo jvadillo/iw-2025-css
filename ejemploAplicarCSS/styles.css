@@ -1,3 +1,47 @@
+/* 1. Centrar */
+main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+/* 2. Tipo de letra */
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* 3. Spacing */
+
+body {
+  line-height: 1.5;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+/* 4. Color más confortable para leer y contraste */
+
+body {
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+
+/* 5. Color primario de los enlaces */
+
+a {
+  color: #e81c4f;
+}
+
+/* 6. Header */
+
 header {
   background-color: #263d36;
   background-image: url("header.jpg");
@@ -15,55 +59,7 @@ header h1 {
   font-weight: 300;
 }
 
-
-/* COMPLETO */
-
-main {
-  color: #555;
-  margin: 0 auto;
-  max-width: 50em;
-  line-height: 1.5;
-  padding: 4em 1em;
-}
-
-h2 {
-  margin-top: 1em;
-  padding-top: 1em;
-}
-
-body {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-h1,
-h2,
-strong {
-  color: #333;
-}
-
-a {
-  color: #1ca5e8;
-}
-
+/* Estilos de los párrafos */
 p {
-	text-align: justify;
-}
-
-header {
-  background-color: #263d36;
-  background-image: url("header.jpg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  line-height: 1.2;
-  padding: 10vw 2em;
-  text-align: center;
-}
-
-body {
-  max-width: none;
-}
-h1 {
-	color:#fff;
-	text-align: center;
+  text-align: justify;
 }
