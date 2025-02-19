@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+h1 {
+    color: #942897;
+    text-align: center;
+}
+
+h2 {
+    color: #5b0e5e;
+    margin: 26px 0;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #5b0e5e;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 40px;
+}
+
+/* Menu de navegación (lista horizontal) */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav a {
+    color: rgb(34, 116, 194);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(9, 41, 70);
+}
+
+/* Estilos de la tabla */
+table {
+    border-spacing: 0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #5b0e5e;
+    padding: 14px;
+}

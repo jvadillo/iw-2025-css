@@ -1,0 +1,42 @@
+body {
+  background-color: #dcdbdb;
+  border: 2px solid #000;
+  font-family: "Arial", sans-serif;
+  margin-left: 200px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 800px;
+}
+
+div {
+  background-color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  border-bottom: 2px solid #000;
+  color: #1bb9c2;
+  margin-bottom: 1.5em;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px dotted #1bb9c2;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  padding-bottom: 10px;
+  text-align: left;
+  width: 80%;
+}
+
+p {
+  margin-left: 40px;
+  line-height: 1.5em;
+}
+
+a {
+  color: #1bb9c2;
+  font-weight: 700;
+}
