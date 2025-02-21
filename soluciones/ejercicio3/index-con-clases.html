@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>My page title</title>
+    <style>
+        /* El main tiene que tener el tipo de letra Verdana, estar centrado horizontalmente y una anchura de 1100px */
+        main {
+            font-family: Verdana, sans-serif;
+            width: 1100px;
+            margin: 0 auto;
+        }
+        
+        /* El texto encabezado 1 tiene que estar centrado */
+        h1 {
+            text-align: center;
+        }
+        
+        /* Los encabezados secundarios tienen que tener un borde inferior de 1px de grosor, sólido y de color #87aff6 */
+        h2 {
+            border-bottom: 1px solid #87aff6;
+        }
+        
+        /* El último encabezado tiene que tener el borde inferior de color #ea6584 */
+        #ultimo {
+            border-bottom: 1px solid #ea6584;
+        }
+        
+        /* Todos los párrafos tienen una fuente de 16px, una altura de línea de 30px y un margen interior de 6px */
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            padding: 6px;
+        }
+        
+        /* El primer párrafo tiene fondo blanco, margen interior de 10px y un borde completo (4 laterales) de 1px y color #0e0e0e*/
+        #primero {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #0e0e0e;
+        }
+        
+        /* Los párrafos pares tendrán el fondo de color #d7d7d7 */
+        .par {
+            background-color: #d7d7d7;
+        }
+        
+        /* Los párrafos impares tendrán el fondo de color #f6f6f6 */
+        .impar {
+            background-color: #f6f6f6;
+        }
+        
+        /* Los enlaces serán de color #f00 */
+        a {
+            color: #f00;
+        }
+        
+        /* Los enlaces a la wikipedia serán de color #00f */
+        .enlace-wikipedia {
+            color: #00f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aprendiendo CSS</h1>
+    </header>
+    <main>
+        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <p id="primero" class="impar">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit ad <strong>pretium consequat</strong> orci, ridiculus aenean mus faucibus <a class="enlace-wikipedia" href="https://www.wikipedia.com/">mauris quam</a> est sociis cursus lacinia.
+        </p>
+        <p class="par">
+            Placerat ullamcorper parturient dui iaculis porttitor <strong>malesuada cum sociosqu consequat</strong> ultricies.
+        </p>
+        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <p class="impar">
+            Aliquet magna <strong>nostra duis facilisis risus</strong> suscipit cum scelerisque.
+        </p>
+        <p class="par">
+            At elementum penatibus etiam <strong>justo</strong> semper blandit pretium <a class="enlace-wikipedia" href="https://www.wikipedia.com/">turpis nostra</a>.
+        </p>
+        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <p class="impar">
+            Primis mattis vivamus augue rhoncus dictum nunc fermentum.
+        </p>
+        <h2 id="ultimo">Lorem ipsum dolor sit amet consectetur</h2>
+        <p  class="par">
+            Torquent magnis nullam laoreet fusce ligula eros sapien.
+        </p>
+    </main>
+</body>
+</html>
