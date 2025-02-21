@@ -26,7 +26,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    background-color: #5b0e5e;
+    color: white;
 }
 
 header {
@@ -47,11 +48,13 @@ nav li {
 nav a {
     color: rgb(34, 116, 194);
     font-weight: 600;
+    padding: 5px 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: rgb(9, 41, 70);
+    background-color: rgb(34, 116, 194);;
+    color: #fff;
 }
 
 /* Estilos de la tabla */
